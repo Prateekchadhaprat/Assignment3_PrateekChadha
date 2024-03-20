@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Assignment3_PrateekChadha
 {
-    internal class Vehicle
+    public class Vehicle
     {
+        public string Model { get; set; }
+        public string Manufacturer { get; set; }
+        public int Year { get; set; }
+        public double RentalPrice { get; set; } 
     }
 }
