@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Assignment3_PrateekChadha
 {
-    internal class Car
+    public class Car : Vehicle
     {
-    }
-}
+        public int Seats { get; set; }
+        public string EngineType { get; set; }
+        public string Transmission { get; set; }
+        public bool Convertible { get; set; }
+
+       
