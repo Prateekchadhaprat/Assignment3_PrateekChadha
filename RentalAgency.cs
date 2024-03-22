@@ -9,7 +9,7 @@ namespace Assignment3_PrateekChadha
     public class RentalAgency
     {
         
-        private Vehicle[] Fleet;
+        public Vehicle[] Fleet;
         private int count;
         
         public double TotalRevenue { get; private set; }
@@ -66,4 +66,4 @@ namespace Assignment3_PrateekChadha
         }
     }
 }
-    }
+    
